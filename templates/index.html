@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Medical Expenses Prediction</h2>
+    <form action="predict" method="post">
+        Age: <input type="text" name="age"><br>
+        Sex: <select name="Sex">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select><br>
+         bmi:<input type="text" name="bmi"><br>
+        Children: <input type="text" name="children"><br>
+        Smoker: <select name="smoker">
+               <option value="no">No</option>
+                <option value="yes">Yes</option>
+         </select><br>
+    Region:<select name="region">
+    <option value="northeast">Northeast</option>
+    <option value="northwest">Northwest</option>
+    <option value="southeast">Southeast</option>
+    <option value="southwest">Southwest</option>
+    </select><br>
+    <button id="sub" type="submit">Predict</button>
+    
+</body>
+</html>
+
