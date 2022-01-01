@@ -51,7 +51,7 @@ def predict():
              region_southeast=0	
              region_southwest=0
 
-        prediction=model.predict([[age,sex,bmi,smoker,children,region_northeast,region_northwest,region_southeast,region_northwest]])
+        prediction=model.predict([[age,sex,bmi,children,smoker,region_northeast,region_northwest,region_southeast,region_northwest]])
         return render_template('result.html',prediction_text=prediction)
 
 
