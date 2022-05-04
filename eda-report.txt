@@ -1,0 +1,9 @@
+-->Shape of the dataset: (1338,7)
+-->The data has no null values
+-->age,bmi and smoking are the factors which are highly correlatd with insurance premium.
+-->number of children is very less correlated with insurance premium cost.
+-->The region SOUTHEAST has the highest mean of the insurance premium and te region SOUTHWEST has the lowest.
+-->The insurance premium cost mostly lies in the range of 1.1k to 10k.
+-->There are 139 outliers based on the value of expenses.
+-->From the outliers,it could be concluded that the person(136 out of 139) who smoke have higher insurance premium cost.
+-->northwest has only 20 person while southeast has 57 person with high insurance premium cost.
