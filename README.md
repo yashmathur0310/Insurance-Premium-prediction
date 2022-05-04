@@ -1,3 +1,3 @@
-# Medical-expenses-prediction
+# Insurance-premium-prediction
 
 Deployment Link- https://insurancepremiumbyyash.herokuapp.com/
